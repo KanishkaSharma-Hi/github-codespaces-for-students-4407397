@@ -1,0 +1,8 @@
+{
+    "build":{
+        "dockerfile":"Docekrfile"
+    },
+    "updateContentCommand": "npm install",
+    "postAttachCommand": "npm start",
+    "remoteUser": "node"
+}
